@@ -7,6 +7,16 @@
   --foreground: #171717;
 }
 
+@layer base {
+  @font-face {
+    font-family: "Overused Grotesk";
+    src: url("/src/app/fonts/OverusedGrotesk-VF.ttf") format("truetype");
+    font-weight: 300 900;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
