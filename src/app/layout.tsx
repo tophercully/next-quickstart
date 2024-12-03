@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 // import "./globals.css";
 import "./output.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const overusedGrotesk = localFont({
   src: "./fonts/OverusedGrotesk-VF.ttf",
@@ -25,6 +26,7 @@ export default function RootLayout({
         className={`${overusedGrotesk.className} flex h-fit min-h-[100svh] w-screen flex-col items-center justify-center overflow-y-auto p-4 pt-0 antialiased md:p-10`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
