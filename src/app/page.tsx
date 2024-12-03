@@ -12,6 +12,7 @@ export default function Home() {
         <li>Tailwind</li>
         <li>ESLint</li>
         <li>Prettier</li>
+        <li>Lucide Icons</li>
         <li>Vercel Analytics</li>
         <li>"Overused Grotesk" typeface</li>
         <li>

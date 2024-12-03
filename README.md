@@ -10,7 +10,7 @@ This quickstart web template includes:
 - React
 - React-Router
 - Tailwind
-- Vercel
+- Lucide Icons
 - Vercel Analytics
 - `Overused Grotesk` typeface
 - `npm run dev` will start Vite and run Tailwind's watch command concurrently
