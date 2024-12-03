@@ -5,11 +5,11 @@
 This quickstart web template includes:
 
 - TypeScript
-- Prettier
-- ESLint
+- Next.js
 - React
-- React-Router
 - Tailwind
+- ESLint
+- Prettier
 - Lucide Icons
 - Vercel Analytics
 - `Overused Grotesk` typeface
