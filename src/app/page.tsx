@@ -14,10 +14,10 @@ export default function Home() {
         <li>Prettier</li>
         <li>Lucide Icons</li>
         <li>Vercel Analytics</li>
-        <li>"Overused Grotesk" typeface</li>
+        <li>{`"Overused Grotesk" typeface`}</li>
         <li>
-          "npm run dev" will start the app and run Tailwind's watch command
-          concurrently
+         {` "npm run dev" will start the app and run Tailwind's watch command
+          concurrently`}
         </li>
       </ul>
       <div>
@@ -25,7 +25,7 @@ export default function Home() {
           href="/dynamic-page/1"
           className="rounded-full border bg-base-100 px-3 py-2 shadow-sm hover:bg-base-150"
         >
-          Dynamically routed page (SSR)
+          {`Dynamically routed page (SSR)`}
         </Link>
       </div>
     </div>
